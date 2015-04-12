@@ -6,12 +6,12 @@
 
 /* begin: for contact information */
 table {
-	border-collapse: collapse;
+    border-collapse: collapse;
 }
 
 td {
-	padding: 0.5em;
-	font-size: 1.25em;
+    padding: 0.5em;
+    font-size: 1.25em;
 }
 /* end: for contact information */
 
@@ -65,8 +65,33 @@ hr {
 }
 
 /* begin: navbar coloring */
+.navbar-default {
+    /* color of logo is #2a431b, but that's pretty dark, so use some alpha */
+    background-color: rgba(42, 67, 27, 0.9);
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #fff;
+}
+
+@media screen and (max-width:768px) {
+    .navbar-default .navbar-nav > li > a,
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #fff;
+    }
+
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        font-weight: bold;
+        background-color: #fff;
+        color: rgba(42, 67, 27, 0.9);
+    }
+}
+
 .navbar-toggle {
-    /* color of logo is #2a431b, but is pretty dark */
     background-color: rgba(42, 67, 27, 0.9);
 }
 
@@ -74,8 +99,14 @@ hr {
     background-color: #fff;
 }
 
-.navbar-default .navbar-toggle:hover, navbar-default .navbar-toggle:focus {
-    background-color: rgba(42, 67, 27, 0.5);
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: rgba(42, 67, 27, 0.9);
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fff;
 }
 /* end: navbar coloring */
 
@@ -84,11 +115,11 @@ hr {
 }
 
 .brand-before {
-	text-transform: none;
+    text-transform: none;
 }
 
 .tagline {
-	text-transform: none;
+    text-transform: none;
 }
 
 /*.brand-before,*/
@@ -138,19 +169,19 @@ hr {
 
 /* begin: for second paragraph of index page */
 .img-right {
-	float: right;
-	margin: 0 auto 0;
+    float: right;
+    margin: 0 auto 0;
 }
 /* end: for second paragraph of index page */
 
 /* begin: for impress page */
 .impress h3 {
-	font-size: 1.25em;
+    font-size: 1.25em;
 }
 
 .impress td {
-	padding-left: 0;
-	padding-right: 1em;
+    padding-left: 0;
+    padding-right: 1em;
 }
 /* end: for impress page */
 
