@@ -243,3 +243,18 @@ footer p {
         clear: both;
     }
 }
+
+.product {
+    align: center;
+}
+
+.product-tagline {
+    text-transform: uppercase;
+    font-family: "Josefin Slab";
+    font-size: 1.15em;
+    font-style: italic;
+}
+
+.product-price {
+    display: block;
+}
