@@ -73,6 +73,10 @@ hr {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #fff;
 }
+
+.navbar-default .navbar-toggle:hover, navbar-default .navbar-toggle:focus {
+    background-color: rgba(42, 67, 27, 0.5);
+}
 /* end: navbar coloring */
 
 .img-full {
