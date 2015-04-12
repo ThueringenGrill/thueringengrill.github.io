@@ -64,6 +64,17 @@ hr {
     letter-spacing: 3px;
 }
 
+/* begin: navbar coloring */
+.navbar-toggle {
+    /* color of logo is #2a431b, but is pretty dark */
+    background-color: rgba(42, 67, 27, 0.9);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+/* end: navbar coloring */
+
 .img-full {
     min-width: 100%;
 }
