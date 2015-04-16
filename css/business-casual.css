@@ -287,3 +287,7 @@ footer p {
 .product-price {
     display: block;
 }
+
+.product img {
+    margin: 1em auto;
+}
