@@ -273,10 +273,6 @@ footer p {
     }
 }
 
-.product {
-    align: center;
-}
-
 .product-tagline {
     text-transform: uppercase;
     font-family: "Josefin Slab";
@@ -290,4 +286,9 @@ footer p {
 
 .product img {
     margin: 1em auto;
+}
+
+#anfahrt-maps {
+    border: 0;
+    width: 100%;
 }
