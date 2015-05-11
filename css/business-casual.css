@@ -292,3 +292,16 @@ footer p {
     border: 0;
     width: 100%;
 }
+
+/* begin: for special occassions */
+.attention-box {
+    margin: 0 auto;
+    max-width: 60em;
+    text-align: center;
+}
+
+.attention-box h2 {
+    font-size: 2em;
+    text-transform: none;
+}
+/* end: for special occasions */
