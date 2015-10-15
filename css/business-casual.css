@@ -24,6 +24,13 @@ body {
     -o-background-size: cover;
 }
 
+/* begin: for announcements */
+.special-text {
+	font-size: 2em;
+}
+
+.special-text,
+/* end: for announcements */
 h1,
 h2,
 h3,
