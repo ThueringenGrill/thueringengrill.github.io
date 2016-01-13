@@ -332,3 +332,11 @@ footer p {
 	min-height: 200px;
 }
 /* end: for public transport information */
+
+/* begin: visibility classes */
+@media (min-width: 768px) {
+	.sm-only {
+		display: none;
+	}
+}
+/* end: visibility classes */
