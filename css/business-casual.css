@@ -83,7 +83,7 @@ hr {
     color: #fff;
 }
 
-@media screen and (max-width:999px) {
+@media screen and (max-width:1199px) {
     .navbar-default .navbar-nav > li > a {
         color: #fff;
     }
@@ -202,7 +202,7 @@ footer p {
     font-size: 1em;
 }
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:1200px) {
     .brand {
         display: inherit;
         margin: 0;
@@ -301,6 +301,11 @@ footer p {
     width: 100%;
 }
 
+.page-title {
+	text-transform: none;
+	padding-bottom: 0.75em;
+}
+
 /* begin: for special occassions */
 .attention-box {
     margin: 0 auto;
@@ -334,10 +339,15 @@ footer p {
 }
 /* end: for public transport information */
 
-/* begin: visibility classes */
+/* begin: usability on small-screen devices */
 @media (min-width: 768px) {
 	.sm-only {
 		display: none;
 	}
+
+	.sm-only-para-margin {
+		margin-bottom: 0;
+	}
 }
-/* end: visibility classes */
+
+/* end: usability on small-screen devices */
